@@ -1,0 +1,20 @@
+.action-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.action-bar button.button {
+  width: 12px;
+  font-size: 12px;
+  opacity: 0.6;
+  border: 5px solid black;
+  /* height: 40px; */
+  border-radius: 50%;
+  margin: 2px 2px !important;
+}
+
+.action-bar button.button:hover {
+  opacity: 1;
+  transition: all 0.3s;
+}
